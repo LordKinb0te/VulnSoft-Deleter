@@ -1,0 +1,33 @@
+{
+  "applications": [
+    {
+      "name": "Zoom",
+      "paths": [
+        "AppData\\Roaming\\Zoom",
+        "AppData\\Local\\Zoom",
+        "AppData\\Roaming\\Zoom Meetings",
+        "Documents\\Zoom"
+      ],
+      "registry": [
+        "HKCU:\\Software\\Zoom",
+        "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\ZoomUMX",
+        "HKLM:\\Software\\Zoom",
+        "HKLM:\\Software\\WOW6432Node\\Zoom"
+      ],
+      "scheduledTasks": ["ZoomUpdate", "Zoom*"]
+    },
+    {
+      "name": "TeamViewer",
+      "paths": [
+        "AppData\\Roaming\\TeamViewer",
+        "AppData\\Local\\TeamViewer"
+      ],
+      "registry": [
+        "HKCU:\\Software\\TeamViewer",
+        "HKLM:\\Software\\TeamViewer",
+        "HKLM:\\Software\\WOW6432Node\\TeamViewer"
+      ],
+      "scheduledTasks": ["TeamViewer*"]
+    }
+  ]
+}

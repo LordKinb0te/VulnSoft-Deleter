@@ -1,0 +1,20 @@
+
+=== REMEDIATION SUMMARY ===
+Total Installations Found: 125
+Total Computers Affected: 44
+Total Users Affected: 45
+
+Applications Remediated:
+  - TeamViewer: 63 installations   - Zoom: 62 installations
+
+Success Metrics:
+  - Local Profiles Cleaned: 0
+  - Roaming Profiles Cleaned: 0
+  - Registry Cleaned: 125
+  - Scheduled Tasks Cleaned: 2
+
+Errors Encountered: 123
+
+Log File: remediation_20260205_094514.log
+Findings: findings_20260205_094514.csv
+Results: remediation_20260205_094514.csv
