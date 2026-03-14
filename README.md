@@ -4,7 +4,7 @@ But when I deploy Field Effect MDR, it's going to freak out about vulnerable sof
 
 As much as I push for it, leadership is not interested in the costs associated with a solution like Intune. But I still can't have vulnerable software sitting on workstations and my roaming profiles store.
 
-First things first, let's purge vulnerable software from local and roaming profiles all in one go. We can specify our target applications along with their unique paths, keys, and scheduled tasks in json, then shoot the shooter script.
+First things first, let's purge vulnerable software from local and roaming profiles all in one go. We can specify our target applications along with their unique paths, keys, and scheduled tasks in json, then shoot the shooter script. Yes I know we can automate the finding of these app values, but the point of this script is a very deliberate and documented approach. If I automate the value finding, I am concerned this script won't be treated with the respect it needs. Type of script you can get fired over dawg, be careful
 
 I am leaving this script defanged - if you have a use for the script I'm sure you can read the code to stop using WhatIf mode.
 
